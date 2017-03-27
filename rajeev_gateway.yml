@@ -1,1 +1,7 @@
+---
 
+zuul:
+  routes:
+    TEST:
+      path: /testClient/**
+      serviceId: TESTCLIENT  
